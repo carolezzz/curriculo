@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/* Responsivo */
+
+
+
+/* algumas especificações como margem do header e do article, e fonte da página */
+
+body {
+	background-color: #F7F4F4;
+}
+
+::selection {
+    background: #F7F4F4;
+    color: #840032;
+}
+
+header {
+		height: 250px;
+	width: auto;
+	padding-left: 55px;
+	padding-right: 40px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F7F4F4;
+}
+
+
+
+nav {
+    position: sticky;
+    top: 0;
+	margin-left:200px;
+	float:inherit;
+}
+
+#horizonte {
+	list-style-type: none;
+	margin-left: 100px;
+	padding-left: 0;
+	border-radius: 5px;
+	margin-top: 24px;
+}
+
+
+.listacima {
+	display: inline;
+	background-color: #F7F4F4;
+	float:left;
+	border-bottom-width: 4px;
+	border-bottom: 2px solid #1E555C;
+}
+
+/* <a> do menu apenas */
+.menuzinho {
+	text-decoration: none;
+	display: block;
+	color: #840032;
+	padding: 5px;
+}
+
+a.menuzinho:link, a.menuzinho:visited {
+	text-decoration: none
+	}
+
+a.menuzinho:hover {
+	color: #1E555C;
+	background-color: #F7F4F4;
+	}
+
+a.menuzinho:active {
+	text-decoration: none;
+	color: #1E555C;
+	background-color: #F7F4F4;
+	}
+
+.tamonessa {
+	text-decoration: none;
+	display: block;
+	color: #1E555C;
+	padding: 5px;
+}
+
+a.tamonessa:link {
+	color: #1E555C;
+	background-color: #F7F4F4;
+} 
+
+a.tamonessa:visited {
+	text-decoration: none
+	}
+
+a.tamonessa:hover {
+	text-decoration: none;
+	color: #840032;
+	background-color: #F7F4F4;
+	}
+
+a.tamonessa:active {
+	text-decoration: none;
+	color: #840032;
+	background-color: #F7F4F4;
+	}
+
+/* a imagem está em um círculo, esse class é dele. NÃO PRECISA MEXER */
+
+.circle {
+	background-color: #aaa;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	float:left;
+	border-left: 10px solid #C90038; 
+	border-bottom-radius: 2px;
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  float:left;
+}
+
+/* NÃO PRECISA MEXER */
+/* Fiz um class só para o nome porque eu não conseguia posicioná-lo corretamente, não sei se
+pode mexer ou não, vou decidir isso ainda. Verificar */
+
+#nome {
+  height: auto;
+  width: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#coisas {
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-bottom: 5px;
+}
+
+/* Outro class que eu fiz só para posicionar direito. Vou ver se precisa dele ou não */
+
+#objetivos {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	margin-left: 450px;
+	margin-top: 1px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+/* NÃO MEXER */
+
+h1 {
+color: #E59500;
+font-family: 'Open Sans Condensed', sans-serif;
+margin-left: 10px;
+}
+
+li {
+list-style-position: inside;
+}
+
+p {
+ line-height: 0.1px;
+margin-left: 180px;
+font-size: 11px;
+}
+
+b {
+color: #E59500;
+}
+
+h2 {
+font-family: 'Open Sans Condensed', sans-serif;
+color: #E59500;
+margin-left: 200px;
+}
+
+h3 {
+font-family: 'Open Sans Condensed', sans-serif;
+color: #E59500;
+}
+
+/*NÃO MEXER */
+
+article {
+	height: auto;
+	width: auto;
+	padding-left: 350px;
+	padding-right: 400px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F7F4F4;
+	float: left;
+}
+
+.oidotxt {
+	font-size: 50px;
+	color: #E59500;
+	font-family: 'Poiret One', cursive;
+}
+
+.escola {
+border-bottom: solid 1px #000;
+margin-right: 400px;
+}
+
+#cargo1 {
+	margin-right: 500px;
+	float: right;
+	padding-top: 5px;
+}
+
+#empresas1 {
+	height: 110px;
+	width: 150px;
+	border-right: solid 2px #2E4D64;
+	margin-left: 350px;
+	padding-right: 40px;
+	padding-top: 55px;
+	float: left;
+}
+
+#descricao1 {
+	height: 200px;
+	width: 400px;
+	margin-right: 380px;
+	padding-left: 10px;
+	float: right;
+}
+
+#cargo2 {
+	margin-right: 500px;
+	float: right;
+	padding-top: 25px;
+}
+
+#empresas2 {
+	height: 110px;
+	width: 150px;
+	border-right: solid 2px #2E4D64;
+	margin-left: 350px;
+	margin-top: 75px;
+	padding-right: 40px;
+	padding-top: 55px;
+	float: left;
+}
+
+#descricao2 {
+	height: 200px;
+	width: 400px;
+	margin-right: 380px;
+	padding-left: 10px;
+	float: right;
+}
+
+#cargo3 {
+	margin-right: 660px;
+	float: right;
+	padding-top: 20px;
+}
+
+#empresas3 {
+	height: 110px;
+	width: 150px;
+	border-right: solid 2px #2E4D64;
+	margin-left: 350px;
+	margin-top: 75px;
+	padding-right: 40px;
+	padding-top: 55px;
+	float: left;
+}
+
+#descricao3 {
+	height: 200px;
+	width: 400px;
+	margin-right: 380px;
+	padding-left: 10px;
+	float: right;
+}
+
+.titulo {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #840032;
+}
